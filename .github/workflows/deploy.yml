@@ -32,7 +32,7 @@ jobs:
         run: npm install @slidev/cli@52.2.4 @slidev/theme-seriph
 
       - name: Build Slidev
-        run: npx slidev build slides.md --base "/${{ github.event.repository.name }}/" --without-notes
+        run: npx slidev build slides.md --base "/${{ github.event.repository.name }}/"
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
