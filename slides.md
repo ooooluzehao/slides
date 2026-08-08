@@ -947,4 +947,7 @@ class: text-center
 code {
   font-family: Consolas, monospace;
 }
+  #slidev-goto-dialog {
+  display: none !important;
+}
 </style>
